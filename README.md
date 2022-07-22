@@ -14,10 +14,23 @@
  
 ### Mac OS
 
-#### php 옛날버전 사용방법
+#### node 옛날버전 사용방법
 
-1. 완전 삭제
-2. 링크
+1. 완전 삭제 후 설치
 ```
-% brew link -overwrite php@7.4
+% brew uninstall --force node
+% brew uninstall --force npm
+% brew install node@16
 ```
+3. 링크
+```
+% brew link -overwrite node@16
+```
+#### php 패키지 관리자 설치(composer)
+1. 설치
+```
+% brew install composer
+```
+2. 삭제
+
+

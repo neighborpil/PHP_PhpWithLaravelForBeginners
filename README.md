@@ -32,5 +32,7 @@
 % brew install composer
 ```
 2. 삭제
-
+```
+% brew doctor
+```
 
